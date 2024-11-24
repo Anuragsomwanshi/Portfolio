@@ -1,0 +1,34 @@
+.Navbar{
+    height: 4rem;
+    width: 100vw;
+    background: linear-gradient(yellow,white,yellow);
+    
+   
+}
+
+.menu{
+
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    padding: 1rem;
+    font-size: 22px;
+
+}
+.menu-item-brand{
+    font-size: 30px;
+    font-weight: bolder;
+    color: darkblue;
+    text-shadow: 3px 3px 3px darkblue;
+    cursor: pointer;
+}
+.menu-item{
+cursor: pointer;
+}
+
+.menu-item:hover{
+    border-bottom: 2px solid blue;
+    color: blue;
+}

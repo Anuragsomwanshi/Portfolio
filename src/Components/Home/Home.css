@@ -1,0 +1,69 @@
+.Home{
+    
+    height: 100vh;
+    display: flex;
+}
+.home-col-1{
+    flex-basis: 50%;
+    
+}
+.home-col-1 span{
+    color:yellow;
+   
+}
+
+.txt{
+    color: white;
+    font-size: 44px;
+    text-shadow: 3px 3px 6px white;
+    width: 70%;
+    position: relative;
+    top: 16rem;
+    left: 5rem;
+    height: 15rem;
+}
+.btn-connect{
+    background-color: white;
+    border: 50%;
+    padding: 13px;
+    position: relative;
+    top: 20rem;
+    left: 17rem;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.btn-connect:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+.home-col-2{
+    flex-basis: 50%;
+}
+.hero-img{
+    width: 100%;
+}
+.dev{
+    color: yellow;
+    animation: change 2s linear 3s infinite alternate-reverse;
+}
+
+@keyframes change {
+from{
+    
+    color: white;
+    position: relative;
+    top: 0px;
+    }
+
+
+    to{
+        color: yellow;
+        position: relative;
+        top: 80px;
+        
+        
+    }
+}
