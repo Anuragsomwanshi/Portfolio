@@ -12,6 +12,8 @@ const Home = () => {
       <h2>i am Anurag Somwanshi</h2>
       <p> i am Software Engineer working on MERN stack and python Django technology</p>
 
+      <button className='btn_resume'>Resume</button>
+
       </div>
 
 

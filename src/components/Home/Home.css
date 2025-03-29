@@ -22,7 +22,11 @@
     gap: 5px;
 }
 
-h2{
-    color:  rgb(103, 103, 214);
-
+.btn_resume{
+    
+    padding: 12px;
+    border-radius: 22px;
+    background-color: rgb(103, 103, 214);
+    border: none;
+    cursor: pointer;
 }
