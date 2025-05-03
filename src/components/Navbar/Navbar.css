@@ -15,6 +15,7 @@
 .menu li{
     margin: 15px;
     list-style-type: none;
+    cursor: pointer;
 }
 
 .nav button{

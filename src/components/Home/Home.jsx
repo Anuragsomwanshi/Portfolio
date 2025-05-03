@@ -10,7 +10,7 @@ const Home = () => {
       <img className='img' src={prof_img} alt="" />
       <h4>Hello sir/mam</h4>
       <h2>i am Anurag Somwanshi</h2>
-      <p> i am Software Engineer working on MERN stack  technology</p>
+      <p> i am Software Engineer working on MERN stack  Technology</p>
 
       <button className='btn_resume'>Resume</button>
 

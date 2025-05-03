@@ -4,10 +4,61 @@
 }
 .col-1{
     flex-basis: 40%;
+    text-align: center;
+   
+
    
 }
 
 .col-2{
     flex-basis: 60%;
+
+
+}
+.col-2 h1{
+    margin: 8px;
+    padding: 5px;
 }
 
+.about-para{
+    line-height:1.4rem;
+    text-align: justify;
+    margin: 8px;
+    padding: 5px;
+    
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+
+}
+.skills p{
+    padding: 12px;
+    margin: 5px;
+    border: 2px solid;
+    width: 7rem;
+    transition: 1.5s;
+}
+
+.skills p:hover{
+    cursor: pointer;
+    background-color: rgb(103, 103, 214);
+}
+.skills hr{
+    height: 5px;
+    margin: 15px;
+    transition: 0.5s;
+    background-color: rgb(103, 103, 214);
+    
+    
+    
+}
+
+
+
+.about_img{
+    width: 70%;
+    margin-top: 8rem;
+    
+}
