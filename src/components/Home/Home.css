@@ -5,6 +5,7 @@
  display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .img{
@@ -29,4 +30,74 @@
     background-color: rgb(103, 103, 214);
     border: none;
     cursor: pointer;
+}
+
+
+@media(max-width:600px){
+
+    .img{
+        width: 7rem;
+    }
+
+    .content h4{
+        font-size: 11px;
+
+    }
+
+    .content h2{
+        font-size: 15px;
+
+    }
+
+    .content p{
+        font-size: 15px;
+        border: 1px solid;
+    }
+
+
+    .btn_resume{
+    
+        padding: 8px;
+        border-radius: 17px;
+        
+       
+    }
+
+
+
+
+}
+
+@media (max-width:470px){
+
+
+
+    .img{
+        width: 5rem;
+    }
+
+    .content h4{
+        font-size: 9px;
+
+    }
+
+    .content h2{
+        font-size: 13px;
+
+    }
+
+    .content p{
+        font-size: 11px;
+    }
+
+
+    .btn_resume{
+    
+        padding: 7px;
+        border-radius: 16px;
+        
+       
+    }
+
+
 }

@@ -1,0 +1,28 @@
+.Services{
+    height: 100vh;
+}
+
+.Services h1{
+    place-self: center;
+}
+
+.serv-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem;
+}
+.servicebox{
+    border: 1px solid;
+    width: 17rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 8px ;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.servicebox:hover{
+    transform: scale(1.1);
+    background-color: rgb(103, 103, 214);
+}
