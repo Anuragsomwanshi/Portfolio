@@ -1,0 +1,21 @@
+.Mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+
+}
+.mywork-title{
+    place-self: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.work-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+ }
+

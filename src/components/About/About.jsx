@@ -26,13 +26,13 @@ const About = () => {
         further carrier growth.  Thanks You </p>
 
         <div className="skills-section">
-          <div className="skills"> <p>HTML & css</p> <hr  style={{width:'70%'}} /> 70%</div>
-          <div className="skills"> <p>Tailwind css</p> <hr  style={{width:'60%'}} />60% </div>
-          <div className="skills"> <p>javascript</p> <hr  style={{width:'70%'}} />70%</div>
-          <div className="skills"> <p>React.js</p> <hr  style={{width:'70%'}} />70%</div>
-          <div className="skills"> <p>Node.js</p> <hr  style={{width:'65%'}} />65%</div>
-          <div className="skills"> <p>MongoDB</p> <hr  style={{width:'70%'}} />70%</div>
-          <div className="skills"> <p>Mysql</p> <hr  style={{width:'60%'}} />60%</div>
+          <div className="skills"> <p>HTML & css</p></div>
+          <div className="skills"> <p>Tailwind css</p>  </div>
+          <div className="skills"> <p>javascript</p> </div>
+          <div className="skills"> <p>React.js</p> </div>
+          <div className="skills"> <p>Node.js</p> </div>
+          <div className="skills"> <p>MongoDB</p> </div>
+          <div className="skills"> <p>Mysql</p> </div>
         </div>
         
       </div>

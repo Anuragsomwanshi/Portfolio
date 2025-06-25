@@ -2,6 +2,7 @@
     height: 100vh;
     display: flex;
     border: 2px solid;
+    margin: 80px 80px;
 }
 .col-1{
     flex-basis: 40%;
@@ -29,14 +30,20 @@
     
 }
 
-.skills{
-    display: flex;
-    align-items: center;
+.skills-section{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid;
+
+
 
 }
+
+
 .skills p{
-    padding: 12px;
-    margin: 5px;
+    padding: 10px;
+    margin: 4px;
     border: 2px solid;
     width: 7rem;
     transition: 1.5s;

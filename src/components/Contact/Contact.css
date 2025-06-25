@@ -1,0 +1,74 @@
+.contact{
+    display: flex;
+    border: 2px solid ;
+      margin: 80px 110px;
+}
+
+.col-1{
+    border: 2px solid;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.col-1 h4{
+    margin-bottom: 120px;
+}
+
+
+
+
+.detail{
+   
+    margin: 30px;
+   display: flex;
+   justify-content: space-between;
+   font-size: 15px;
+   position: relative;
+   bottom: -55px;
+}
+
+.detail img{
+     width: 1.5rem;
+     border-radius: 20%;
+
+}
+
+.col-2{
+    border: 2px solid;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.col-2 input,textarea{
+    padding: 15px;
+    margin: 10px 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: gray;
+    color: white;
+}
+
+.col-2 input::placeholder{
+    color: white;
+}
+.col-2 textarea::placeholder{
+    color: white;
+}
+
+.col-2 label{
+    position: relative;
+    left: 10%;
+    font-size: 18px;
+}
+.btn-submit{
+    width: 5rem;
+    padding: 5px;
+    place-self: center;
+    color: black;
+}
