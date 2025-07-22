@@ -5,12 +5,13 @@ const About = () => {
   return (
     <div className="About" id="About">
       <div className="col-1">
-        <img className="about_img" src={about} alt="" />
+        <img className="about_img" src={about} alt=""/>
         
       
       </div>
       <div className="col-2">
         <h1>About</h1>
+
         <p className="about-para">
           Hello sir/mam my name is anurag somwanshi i have compleated my bachelors in computer science and currently i am pursuing MCA
           to gain and industory level experience for enhance my carrier skills i am looking for internship/job for go further. i always try
@@ -19,22 +20,22 @@ const About = () => {
           specifically on MERN stack . creating frontend for good  user experience link with backend and database for ex ecommerce website
           portfolio website,fincial field projects, Healthcare project etc . consistancy is a key of success so thats why i follow this rule
           for creating projects day by day and it will help me alot to enhance my skills and learn new things
+          </p>
 
-            
-        </p>
+
         <p className="about-para"> i hope this short intro will give me an positive impact for my
         further carrier growth.  Thanks You </p>
 
         <div className="skills-section">
-          <div className="skills"> <p>HTML & css</p></div>
-          <div className="skills"> <p>Tailwind css</p>  </div>
-          <div className="skills"> <p>javascript</p> </div>
-          <div className="skills"> <p>React.js</p> </div>
-          <div className="skills"> <p>Node.js</p> </div>
-          <div className="skills"> <p>MongoDB</p> </div>
-          <div className="skills"> <p>Mysql</p> </div>
+          <div className="skills"><p>HTML & css</p></div>
+          <div className="skills"><p>Tailwind css</p></div>
+          <div className="skills"><p>javascript</p></div>
+          <div className="skills"><p>React.js</p></div>
+          <div className="skills"><p>Node.js</p></div>
+          <div className="skills"><p>MongoDB</p></div>
+          <div className="skills"><p>Mysql</p></div>
         </div>
-        
+
       </div>
     </div>
   );

@@ -17,6 +17,9 @@
     list-style-type: none;
     cursor: pointer;
 }
+.menu li a{
+    text-decoration: none;
+}
 
 .nav button{
     
@@ -24,7 +27,12 @@
     border-radius: 22px;
     background-color: rgb(103, 103, 214);
     border: none;
+
     
+}
+
+.nav button a{
+    text-decoration: none;
 }
 
 @media (max-width:750px){

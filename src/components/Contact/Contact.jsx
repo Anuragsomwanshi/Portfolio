@@ -7,7 +7,7 @@ import location from '../../assets/location.png'
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div id='contact' className='contact'>
 
 
 
