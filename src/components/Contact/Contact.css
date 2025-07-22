@@ -8,7 +8,7 @@
     border: 2px solid;
     padding: 20px;
     margin: 10px;
-    
+    flex-basis: 60%;
 }
 
 .col-1 h4{
@@ -40,6 +40,8 @@
     margin: 10px;
     display: flex;
     flex-direction: column;
+    
+    
    
 }
 
@@ -66,9 +68,14 @@
     left: 10%;
     font-size: 18px;
 }
+
+ form{
+    width: 100%;
+}
 .btn-submit{
     width: 5rem;
     padding: 5px;
     place-self: center;
     color: black;
+    cursor: pointer;
 }

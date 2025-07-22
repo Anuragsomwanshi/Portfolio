@@ -21,6 +21,12 @@ const serviceData = [
         s_no:'4',
         s_name:'Social Media',
         s_desc:'creating social media platform to connecting with each other '
+    },
+
+     {
+        s_no:'5',
+        s_name:'Website Clone',
+        s_desc:'creating website clone  to enhancing dezine patterns '
     }
 ]
 
