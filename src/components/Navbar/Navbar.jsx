@@ -19,7 +19,7 @@ setTimeout(() => {
     menuref.current.style.opacity='0'
     btnref.current.style.opacity='100'
   
-}, 5000);
+}, 1000);
 
 
 
